@@ -1,0 +1,77 @@
+Strategy:
+	use to create diferente algoritmos to each object that are call during runtime
+Observer:
+	defines a one-to-many depedency between objects so that when one object changes
+	state, all of its dependents are notified and updated automatically
+Decorator:
+	defines a way where insteadof creating all objects rigth after the programa starts
+	in a cenario where we have a class an a bunch of subclass, we choose to create 
+	the subclass at runtime as they are neeeded
+Factory:
+	abstract the creation of objects that can have many types
+Singleton:
+	ensure a class has only one instance and provide a global point of access to it.
+	Ex of use, if for a class responsable to log message in the system, you dont need
+	to create a new instance of that class every single time, just use the same one.
+	on setting class for exemplo.
+	creating eager = cases where the aplication always use the singleton or the cost
+	of creating by demand is not suitable
+Command:
+	use some sort of a one size fits all kind of situation where depending on the 
+	situation dependenign on what 
+	encapsulates a request as an object, thereby letting you parameterize other objects
+	with different request, queues or log requests.
+Adapter:
+	when you want to use a resource that is not direct usable by the client, so you 
+	build and adapter to make it possible to access
+	Allow us to convert the interface of a class into another interface the clients expect
+	Adapter lets classes work together that couldn't otherwise because of incompatible interfaces
+Facade:
+	provides a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level
+	interface that makes the subsystem easier to use.
+Tempate:
+	defines the skeleton of an algorithm in a method, deferring some steps to subclasses. It
+	lets subclasses redefine certain stes of an algorithm without changing the algorithims's 
+	struture.
+Interator:
+	provides a way to access the elments of an aggregate object sequentially without exposing 
+	its underlying representation. Encapsulates the way to interact with diferent type of itens
+State:
+	allows an object to alter its behavior when its internal state changes. The object will appear
+	to change its class.
+Proxy:
+	creates a respresentative object that controls access to another object - which maybe remote,
+	expensive to create or in need to be secured
+	differents variations
+		remote proxy - controls access to a remote object
+		virtual proxy - controls access to a resource that is expensive to create
+		protection proxy - controls access to a resource based on access right
+Builder: 
+	facilitate to construct of complex objects. Normally created as inner class.
+Prototype:
+	used when creating an instance of a given class is either expensiveor complicated
+Mediator:
+	centralizes complex communications and control between related objects
+Visitor:
+	allow us to add methods to classes of different types without much altering to those classes
+Memento:
+	allow to store a object intern state at some moment, an beeing able to restor it any moment
+Interpreter:
+	givem some language, this pattern define a representation for its grammar together with one 
+	interpretetor with uses a representation to inter sentences on the languague
+Responsability:
+	allow to pass order from a sender to some of the possibles receivers
+Bridge:
+	allows to separate the abstration from the implementation
+FlyWeight:
+	for situations where you need to copy same object, but instead of create actually copies, it 
+	creates "virtual instances" of an object
+	
+	
+	
+	
+	
+	
+	
+	
+	
